@@ -48,7 +48,7 @@ const inputSearchHandler = (e) => {
 export const appInit = (url) => {
   createStyle();
   createMarkup();
-  siteUrl = 'http://www.omdbapi.com/';
+  siteUrl = 'https://www.omdbapi.com/';
 
   inputSearch.addEventListener('keyup', inputSearchHandler);
 };
